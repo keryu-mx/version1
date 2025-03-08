@@ -1,0 +1,7 @@
+Django==4.2
+djangorestframework==3.14.0
+python-dotenv==1.0.0  # For loading environment variables from .env file
+twilio==8.4.0  # For WhatsApp integration
+qrcode[pil]==7.4.2  # For generating QR codes
+Pillow==10.0.0  # For image processing (required by qrcode[pil])
+requests==2.31.0  # For making HTTP requests (optional, if needed)
